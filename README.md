@@ -1,0 +1,12 @@
+# CryoZeroLabs Skills
+
+[![X · @cryozerolabs](https://img.shields.io/badge/X-%40cryozerolabs-000000?logo=x&logoColor=white)](https://x.com/cryozerolabs)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+CryoZeroLabs 为 AI Agent 开发的 Skills 集合。
+
+## Skills 列表
+
+| Skill | 功能 |
+| --- | --- |
+| [cryozerolabs-wecom-video](skills/cryozerolabs-wecom-video/) | 自动解析单条或批量视频号分享链接，解密并下载 MP4，保留来源和视频元数据。 |

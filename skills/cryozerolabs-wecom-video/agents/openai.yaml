@@ -1,0 +1,4 @@
+interface:
+  display_name: "CryoZeroLabs 企微视频号"
+  short_description: "从视频号链接自动解析、解密并下载 MP4，支持批量任务与元数据交接"
+  default_prompt: "使用 $cryozerolabs-wecom-video 处理这些视频号链接，自动下载 MP4 并返回文件和元数据。"

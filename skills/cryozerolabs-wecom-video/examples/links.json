@@ -1,0 +1,9 @@
+{
+  "items": [
+    {
+      "url": "https://weixin.qq.com/sph/EXAMPLE",
+      "title": "替换为实际视频标题",
+      "context": {"group": "示例群"}
+    }
+  ]
+}
