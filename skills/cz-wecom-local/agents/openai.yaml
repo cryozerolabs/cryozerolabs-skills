@@ -1,0 +1,4 @@
+interface:
+  display_name: "cz-wecom-local · 企微消息读取"
+  short_description: "读取企微聊天消息，解密补全链接和附件，保留原始记录与解析状态"
+  default_prompt: "使用 $cz-wecom-local 读取这些企业微信聊天消息，交付正文、链接、附件和原始数据引用。"
