@@ -21,10 +21,10 @@
 
 ## 本机配置
 
-配置路径按 `--config`、`CRYOZEROLABS_WECOM_VIDEO_CONFIG`、默认路径的顺序选择。
+配置路径按 `--config`、`CZ_WX_CHANNELS_CONFIG`、默认路径的顺序选择。
 
-- macOS：`~/Library/Application Support/cryozerolabs-wecom-video/config.json`
-- 其他系统：`$XDG_CONFIG_HOME/cryozerolabs-wecom-video/config.json`，默认位于 `~/.config`。
+- macOS：`~/Library/Application Support/cz-wx-channels/config.json`
+- 其他系统：`$XDG_CONFIG_HOME/cz-wx-channels/config.json`，默认位于 `~/.config`。
 
 核心配置示例见 [config.example.json](../examples/config.example.json)。`backend_url` 默认为 `http://127.0.0.1:2022`，`ffprobe` 默认从 PATH 查找。
 

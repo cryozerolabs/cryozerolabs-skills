@@ -1,12 +1,12 @@
 ---
-name: cryozerolabs-wecom-video
+name: cz-wx-channels
 description: 接收单条或批量视频号分享链接，复用本地 wx_channels_download 自动解析、解密并下载经过验证的 MP4，返回本地文件与来源元数据。适用于企微视频号链接、sph 分享链接、链接列表和聊天记录 JSON；企微取链通过独立适配器接入。
 metadata:
   author: CryoZeroLabs
   version: 0.1.0
 ---
 
-# CryoZeroLabs WeCom Video
+# cz-wx-channels
 
 把分享链接交付为经过验证的 MP4 和 `manifest.json`。复用已运行的本地下载器，通过详情接口和 `/play` 完成批量解析与媒体解密。
 
@@ -23,7 +23,7 @@ metadata:
 
 ```bash
 python3 scripts/install_local.py
-python3 scripts/install_local.py --destination "$SKILLS_DIR/cryozerolabs-wecom-video"
+python3 scripts/install_local.py --destination "$SKILLS_DIR/cz-wx-channels"
 ```
 
 以上两条对应默认位置和指定位置，按当前环境选择一条执行。环境准备和下载操作由 AI Agent 执行，沿用当前会话已有配置和授权。

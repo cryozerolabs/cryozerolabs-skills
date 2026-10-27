@@ -38,13 +38,13 @@ def now():
 
 
 def config_path():
-    configured = os.environ.get("CRYOZEROLABS_WECOM_VIDEO_CONFIG")
+    configured = os.environ.get("CZ_WX_CHANNELS_CONFIG")
     if configured:
         return Path(configured).expanduser()
     if sys.platform == "darwin":
-        return Path.home() / "Library/Application Support/cryozerolabs-wecom-video/config.json"
+        return Path.home() / "Library/Application Support/cz-wx-channels/config.json"
     base = Path(os.environ.get("XDG_CONFIG_HOME", str(Path.home() / ".config")))
-    return base / "cryozerolabs-wecom-video/config.json"
+    return base / "cz-wx-channels/config.json"
 
 
 def load_config(path=None):
@@ -192,7 +192,7 @@ class Backend:
         self.opener = build_opener(ProxyHandler({}))
 
     def open(self, path, headers=None):
-        request = Request(self.base + path, headers={"User-Agent": "cryozerolabs-wecom-video/" + VERSION, **(headers or {})})
+        request = Request(self.base + path, headers={"User-Agent": "cz-wx-channels/" + VERSION, **(headers or {})})
         try:
             return self.opener.open(request, timeout=self.timeout)
         except HTTPError as exc:

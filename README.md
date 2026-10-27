@@ -9,4 +9,4 @@ CryoZeroLabs 为 AI Agent 开发的 Skills 集合。
 
 | Skill | 功能 |
 | --- | --- |
-| [cryozerolabs-wecom-video](skills/cryozerolabs-wecom-video/) | 自动解析单条或批量视频号分享链接，解密并下载 MP4，保留来源和视频元数据。 |
+| [cz-wx-channels](skills/cz-wx-channels/) | 自动解析单条或批量视频号分享链接，解密并下载 MP4，保留来源和视频元数据。 |

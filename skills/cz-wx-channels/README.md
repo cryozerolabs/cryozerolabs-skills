@@ -1,4 +1,4 @@
-# cryozerolabs-wecom-video
+# cz-wx-channels
 
 [![X · @cryozerolabs](https://img.shields.io/badge/X-%40cryozerolabs-000000?logo=x&logoColor=white)](https://x.com/cryozerolabs)
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -14,7 +14,7 @@
 ## 安装
 
 ```text
-请读取 https://github.com/cryozerolabs/cryozerolabs-skills/blob/main/skills/cryozerolabs-wecom-video/SKILL.md ，帮我安装并配置这个技能。
+请读取 https://github.com/cryozerolabs/cryozerolabs-skills/blob/main/skills/cz-wx-channels/SKILL.md ，帮我安装并配置这个技能。
 ```
 
 ## 使用

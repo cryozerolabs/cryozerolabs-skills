@@ -9,7 +9,7 @@ import tempfile
 
 from channels_core import SOURCE_ROOT
 
-NAME = "cryozerolabs-wecom-video"
+NAME = "cz-wx-channels"
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -26,7 +26,7 @@ def main():
     if destination.exists() and not args.replace:
         parser.error("本地副本已存在；更新时添加 --replace，现有副本会先备份。")
     destination.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.TemporaryDirectory(prefix=".wecom-video-install-", dir=destination.parent) as temporary:
+    with tempfile.TemporaryDirectory(prefix=".cz-wx-channels-install-", dir=destination.parent) as temporary:
         staged = Path(temporary) / NAME
         staged.mkdir()
         for name in ("SKILL.md", "LICENSE", "agents", "scripts", "references", "adapters", "examples"):

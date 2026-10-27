@@ -250,7 +250,7 @@ class AdapterAndInstallTests(unittest.TestCase):
     def test_replace_keeps_backups_outside_skill_discovery(self):
         with tempfile.TemporaryDirectory() as name:
             skills = Path(name) / "skills"
-            destination = skills / "cryozerolabs-wecom-video"
+            destination = skills / "cz-wx-channels"
             backups = Path(name) / "skill-backups"
             command = [sys.executable, str(ROOT / "scripts/install_local.py"),
                        "--destination", str(destination), "--backup-dir", str(backups)]
